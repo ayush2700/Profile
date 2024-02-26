@@ -1,0 +1,116 @@
+*{
+    font-family: sans-serif;
+}
+
+
+
+.photo{
+    display: flex;
+    align-items: center;
+    margin-top: 85px;
+}
+
+.photo img{
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.photo h1{
+    white-space: nowrap;  
+    margin-top: -200px;
+}
+
+.photo p{
+    margin-left: -210px;
+    font-size: 21.8px ;
+
+}
+
+.navbar{
+    background-color: black ;
+    position: fixed;
+    width: 100%;
+    padding: 1em;
+    top: 0;
+    left: 0;
+}
+.navbar a{
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  /* float: left; */
+  font-size: 17px;
+  align-items: center;
+  text-decoration: none;
+  
+}
+.navbar a:hover{
+    background-color: #ffffff;
+  color: black;
+}
+.navbara.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
+  .edu{
+    white-space: nowrap;  
+
+  }
+
+  .end{
+    height: 10px;
+    background-color: black;
+  }
+
+  .njit {
+    width: 200px;
+    float: right;
+  }
+
+  .nmit{
+    width: 170px;
+    float: right;
+  }
+
+  .ust{
+    float: right;
+    width:180px ;
+  }
+
+.skill_table{
+    /* width: 100%; */
+    border-collapse: collapse;
+}
+.skill_table th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  .skill_table th {
+    background-color: #f2f2f2;
+  }
+
+  .skill_table table, th, td {
+    border: 1px solid;
+  }
+
+.linkedin{
+    
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+  .linkedin img{
+    width: 30px;
+    height: auto;
+  }
+
+  footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #000000;
+    color: #ffffff;
+  }
